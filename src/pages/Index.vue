@@ -306,6 +306,8 @@ export default {
 
     const showBoxDetail = (({ shelf, box }) => {
 
+      console.log('shelf : ', shelf);
+      console.log('box : ', box);
       // TODO: notify 처리
 
       // this.boxDetail = {

@@ -17,9 +17,9 @@ const state = reactive({
     dragStatus: false,
     // 창고
     wareHouse: {
-    width: 100, // 가로
-    depth: 100, // 깊이
-    height: 5, // 높이
+        width: 100, // 가로
+        depth: 100, // 깊이
+        height: 5, // 높이
     },
     depth: 0.1, // 벽의 두께
     // 저장공간
